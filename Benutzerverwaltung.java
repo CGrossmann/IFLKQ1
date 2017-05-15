@@ -1,5 +1,9 @@
 public class Benutzerverwaltung{
     
-    //EIGENER CODE
+    public Benutzerverwaltung(){
+    }
+    public void neuenNutzerAnlegen(String pBenutzernamen, String pPW){
+        
+    }
     
 }

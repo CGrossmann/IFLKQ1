@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Benutzerprofil
+comment1.params=pBenutzername\ pPw
+comment1.target=Benutzerprofil(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getBenutzername()
+comment3.params=pBenutzer
+comment3.target=boolean\ isGreater(Benutzerprofil)
+comment4.params=pBenutzer
+comment4.target=boolean\ isEqual(Benutzerprofil)
+comment5.params=pBenutzer
+comment5.target=boolean\ isLess(Benutzerprofil)
+numComments=6

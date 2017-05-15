@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Benutzerverwaltung
+comment1.params=
+comment1.target=Benutzerverwaltung()
+comment2.params=pBenutzernamen\ pPW
+comment2.target=void\ neuenNutzerAnlegen(java.lang.String,\ java.lang.String)
+numComments=3
