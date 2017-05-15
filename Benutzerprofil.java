@@ -6,6 +6,9 @@ public class Benutzerprofil implements ComparableContent<Benutzerprofil>{
         passwort = pPasswort;
         
     }
+    public String getBenutzername(){
+        return benutzername;
+    }
     public boolean isLess(Benutzerprofil pProfil){
         return(pProfil.compareTo(benutzername)<pProfil);
     }
