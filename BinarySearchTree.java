@@ -90,7 +90,21 @@ public class BinarySearchTree<ContentType extends ComparableContent<ContentType>
      *            
      */
     public void insert(ContentType pContent) {
-        //EIGENER CODE
+        if(pContent != null) {
+            if(isEmpty()){
+                this.node = new BSTNode<ContentType>(pContent);
+            }
+            else{
+                if(pContent.isGreater(this.node.content)){
+                    this.node.left.insert(pContent);
+                }
+                else{
+                if(pContent.isLess(this.node.content)){
+                    this.node.right.insert(pContent);
+                }
+            }
+            }
+        }
     }
 
     /**
@@ -132,8 +146,10 @@ public class BinarySearchTree<ContentType extends ComparableContent<ContentType>
      *         
      */
     public BinarySearchTree<ContentType> getRightTree() {
-        //EIGENER CODE
-        return null;
+         if (!this.isEmpty())
+            return this.node.right;
+        else
+            return null;
     }
 
     /**
@@ -200,18 +216,20 @@ public class BinarySearchTree<ContentType extends ComparableContent<ContentType>
      * 
      */
     public ContentType search(ContentType pContent) {
-        //EIGENER CODE
-        // Abbrechen, da es kein Element zu suchen gibt.
-        //EIGENER CODE
-        // Element wird im linken Teilbaum gesucht.
-        //EIGENER CODE
-        // Element wird im rechten Teilbaum gesucht.
-        //EIGENER CODE
-        // Element wurde gefunden.
-        //EIGENER CODE
-        // Dieser Fall sollte nicht auftreten.
-        //EIGENER CODE
-        return null;
+       if(this.isEmpty() || pContent != null) {
+         // Abbrechen, da es kein Element zu suchen gibt.
+         //EIGENER CODE
+         // Element wird im linken Teilbaum gesucht.
+         //EIGENER CODE
+         // Element wird im rechten Teilbaum gesucht.
+         //EIGENER CODE
+         // Element wurde gefunden.
+         //EIGENER CODE
+         // Dieser Fall sollte nicht auftreten.
+         //EIGENER CODE
+         
+       }
+       return null;
     }
 
    
