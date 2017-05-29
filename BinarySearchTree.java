@@ -1,8 +1,8 @@
-package baumklassen;
+ 
 
 /**
  * <p>
- * Materialien zu den zentralen NRW-Abiturpruefungen im Fach Informatik ab 2017
+ * Materialien zu den zentralen NRW-Abiturpruefungen im Fach Informatik ab 2017.
  * </p>
  * <p>
  * Generische Klasse BinarySearchTree<ContentType>
@@ -26,10 +26,10 @@ package baumklassen;
  * Hinweis: In dieser Version wird die Klasse BinaryTree nicht benutzt.
  * </p>
  * 
- * @author Qualitaets- und UnterstuetzungsAgentur - Landesinstitut fuer Schule
+ * @author Qualitaets- und UnterstuetzungsAgentur - Landesinstitut fuer Schule, Materialien zum schulinternen Lehrplan Informatik SII
  * @version Generisch_02 2014-02-21
  */
-public class BinarySearchTree<ContentType extends ComparableContent<ContentType>> {
+public class BinarySearchTree<ContentType extends ComparableContent<ContentType>> { //ContentType ist auch ein Interface, das hier die Methoden von ComparableContent erben soll.
 
 	/* --------- Anfang der privaten inneren Klasse -------------- */
 

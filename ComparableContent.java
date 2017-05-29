@@ -1,6 +1,8 @@
- /**
+ 
+
+/**
  * <p>
- * Materialien zu den zentralen NRW-Abiturpruefungen im Fach Informatik ab 2018
+ * Materialien zu den zentralen NRW-Abiturpruefungen im Fach Informatik ab 2017.
  * </p>
  * <p>
  * Generisches Interface (Schnittstelle) ComparableContent<ContentType>
@@ -13,7 +15,7 @@
  * implizit abstrakten Methoden isGreater, isEqual und isLess festgelegt. 
  * </p>
  * </p>
- * @author Qualitaets- und UnterstuetzungsAgentur - Landesinstitut fuer Schule
+ * @author Qualitaets- und UnterstuetzungsAgentur - Landesinstitut fuer Schule, Materialien zum schulinternen Lehrplan Informatik SII
  * @version Generisch_02 2014-03-01
  */ 
 public interface ComparableContent<ContentType> {

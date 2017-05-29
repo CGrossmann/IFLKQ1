@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Zeichenzaehler
+comment1.params=
+comment1.target=Zeichenzaehler()
+comment2.params=s
+comment2.target=void\ textEinlesen(java.lang.String)
+comment3.params=
+comment3.target=void\ starteAusgabe()
+comment4.params=b
+comment4.target=void\ gibAus(BinarySearchTree)
+numComments=5
