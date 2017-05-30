@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Baum()
+comment1.params=wurzel
+comment1.target=void\ inOrder(BinaryTree)
+comment2.params=wurzel
+comment2.target=void\ preOrder(BinaryTree)
+comment3.params=wurzel
+comment3.target=void\ postOrder(BinaryTree)
+comment4.params=
+comment4.target=void\ postOrderAusgabe()
+comment5.params=
+comment5.target=void\ inOrderAusgabe()
+comment6.params=
+comment6.target=void\ preOrderAusgabe()
+numComments=7
